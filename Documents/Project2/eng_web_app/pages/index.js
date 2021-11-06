@@ -8,9 +8,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex flex-col">
-        <div className="bg-red-500">Map</div>
-        <div className="">Start</div>
+      <div className="flex flex-col bg-red-300 h-screen">
+        <div className=" bg-red-500 flex-1">Map</div>
+        <div className="flex-1">Start</div>
       </div>
     </div>
   );
