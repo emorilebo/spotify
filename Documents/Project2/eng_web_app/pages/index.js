@@ -12,7 +12,11 @@ export default function Home() {
 
       <div className="flex flex-col bg-red-300 h-screen">
         <Map />
-        <div className="flex-1">Start</div>
+        <div className="flex-1">
+          <div className="">
+            <img src="logo_black.png" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   );
