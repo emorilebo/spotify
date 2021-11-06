@@ -51,6 +51,9 @@ export default function Home() {
               Reserve
             </div>
           </div>
+          <div className="h-20 bg-gray-200 text-2xl p-4 flex items-center mt-8">
+            Where to?
+          </div>
         </div>
       </div>
     </div>
