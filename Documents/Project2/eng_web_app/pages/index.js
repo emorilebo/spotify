@@ -37,7 +37,7 @@ export default function Home() {
             <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center">
               <img
                 className="h-3/5"
-                src="https://i.ibb.co/cyvcpfF/uberx.png"
+                src="https://i.ibb.co/n776JLm/bike.png"
                 alt=""
               />
               Wheels
@@ -45,7 +45,7 @@ export default function Home() {
             <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center">
               <img
                 className="h-3/5"
-                src="https://i.ibb.co/cyvcpfF/uberx.png"
+                src="https://i.ibb.co/5RjchBg/ubershedule.png"
                 alt=""
               />
               Reserve
