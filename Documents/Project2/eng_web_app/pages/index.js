@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           {/* Action Buttons */}
           <div className="flex">
-            <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center">
+            <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center transform hover:scale-105 transition text-xl">
               <img
                 className="h-3/5"
                 src="https://i.ibb.co/cyvcpfF/uberx.png"
@@ -34,7 +34,7 @@ export default function Home() {
               />
               Ride
             </div>
-            <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center">
+            <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center transform hover:scale-105 transition text-xl">
               <img
                 className="h-3/5"
                 src="https://i.ibb.co/n776JLm/bike.png"
@@ -42,7 +42,7 @@ export default function Home() {
               />
               Wheels
             </div>
-            <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center">
+            <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center transform hover:scale-105 transition text-xl">
               <img
                 className="h-3/5"
                 src="https://i.ibb.co/5RjchBg/ubershedule.png"
