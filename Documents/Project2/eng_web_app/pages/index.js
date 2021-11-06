@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Head from "next/head";
 import Map from "./components/Map";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -26,14 +27,16 @@ export default function Home() {
           </div>
           {/* Action Buttons */}
           <div className="flex">
-            <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center transform hover:scale-105 transition text-xl">
-              <img
-                className="h-3/5"
-                src="https://i.ibb.co/cyvcpfF/uberx.png"
-                alt=""
-              />
-              Ride
-            </div>
+            <Link href="/search">
+              <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center transform hover:scale-105 transition text-xl">
+                <img
+                  className="h-3/5"
+                  src="https://i.ibb.co/cyvcpfF/uberx.png"
+                  alt=""
+                />
+                Ride
+              </div>
+            </Link>
             <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center transform hover:scale-105 transition text-xl">
               <img
                 className="h-3/5"
