@@ -1,15 +1,18 @@
 import React from "react";
+import Link from "next/link";
 
 const Search = () => {
   return (
     <div className="bg-gray-200 h-screen">
       {/* Button Container */}
       <div className="bg-white px-4">
-        <img
-          className="h-12"
-          src="https://img.icons8.com/ios-filled/50/000000/left.png"
-          alt=""
-        />
+        <Link href="/">
+          <img
+            className="h-12"
+            src="https://img.icons8.com/ios-filled/50/000000/left.png"
+            alt=""
+          />
+        </Link>
       </div>
       {/* Input container */}
       <div className="bg-white flex items-center px-4 mb-2">
@@ -51,15 +54,16 @@ const Search = () => {
         />
       </div>
       {/* Saved places */}
-      <div className="flex">
+      <div className="flex items-center bg-white px-4 py-2">
         <img
-          className="bg-gray-400 w-10 h-10 p-2 rounded-full"
+          className="bg-gray-400 w-10 h-10 p-2 rounded-full mr-2"
           src="https://img.icons8.com/ios-filled/50/ffffff/star--v1.png"
           alt=""
         />
         Saved Places
       </div>
       {/* Confirmed Location */}
+      <button className="flex bg-black text-white">CONFIRMED LOCATIONS</button>
     </div>
   );
 };
