@@ -1,6 +1,14 @@
 import Head from "next/head";
+import mapboxgl from "!mapbox-gl";
+
+mapboxgl.accessToken =
+  "pk.eyJ1IjoiY3J1eGlmaXh1ciIsImEiOiJja3MwaTF3dnAwYWE2MndwZTdyYTk3MjduIn0.MtG_HqT6LlC9o12xHj9W-A";
 
 export default function Home() {
+  const map = new mapboxgl.Map({
+    container: "map",
+    style,
+  });
   return (
     <div className="">
       <Head>
