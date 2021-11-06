@@ -8,16 +8,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>
-        {/* Wrapper */}
-        <div>
-          {/* Map */}
-          Map
-        </div>
-        <div>
-          {/* Start */}
-          Start
-        </div>
+      <div className="flex flex-col">
+        <div className="bg-red-500">Map</div>
+        <div className="">Start</div>
       </div>
     </div>
   );
