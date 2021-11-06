@@ -32,10 +32,13 @@ const Search = () => {
           />
         </div>
         {/* input boxes */}
-        <div>
+        <div className="">
           {/* Inputs */}
-          <div></div>
-          <div></div>
+          <input
+            className="h-10 bg-gray-200"
+            placeholder="Enter Pickup location"
+          ></input>
+          <input className="h-10 bg-gray-200" placeholder="Where to?"></input>
         </div>
       </div>
       {/* Saved places */}
