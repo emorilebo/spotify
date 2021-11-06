@@ -12,7 +12,7 @@ export default function Home() {
 
       <div className="flex flex-col  h-screen">
         <Map />
-        <div className="flex-1">
+        <div className="flex-1 p-4">
           <div className="flex justify-between items-center">
             <img className="h-16" src="logo_black.png" alt="" />
             <div className="flex items-center">
@@ -22,6 +22,33 @@ export default function Home() {
                 src="profile.jpg"
                 alt=""
               />
+            </div>
+          </div>
+          {/* Action Buttons */}
+          <div className="flex">
+            <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center">
+              <img
+                className="h-3/5"
+                src="https://i.ibb.co/cyvcpfF/uberx.png"
+                alt=""
+              />
+              Ride
+            </div>
+            <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center">
+              <img
+                className="h-3/5"
+                src="https://i.ibb.co/cyvcpfF/uberx.png"
+                alt=""
+              />
+              Wheels
+            </div>
+            <div className="flex flex-col  justify-center  rounded-lg bg-gray-200 flex-1 m-1 h-32 items-center">
+              <img
+                className="h-3/5"
+                src="https://i.ibb.co/cyvcpfF/uberx.png"
+                alt=""
+              />
+              Reserve
             </div>
           </div>
         </div>
