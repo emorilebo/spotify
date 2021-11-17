@@ -25,7 +25,7 @@ getWeatherData = (city) => {
 
   //CODE GOES HERE
 }
-console.log(getWeatherData("detroit"))
+
 
 /**
  * Retrieve city input and get the weather data
@@ -34,8 +34,15 @@ console.log(getWeatherData("detroit"))
 searchCity = () => {
   const city = document.getElementById('city-input').value;
   // CODE GOES HERE
+  getWeatherData(city)
+  .then((response)=>{
+    console.log(response)
+  }).catch((error)=>{
+    console.log(error)
+  })
 
 }
+console.log(searchCity())
 
 /**
  * Show the weather data in HTML
