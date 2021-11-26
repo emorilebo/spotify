@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1083371753397",
+    "project_id": "mapnchat",
+    "storage_bucket": "mapnchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083371753397:android:5e00752411666e111f13fc",
+        "android_client_info": {
+          "package_name": "com.cruxifixur.map_n_chat1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083371753397-2hk96vhiglf5qp561cg3o0hse7v8l2v5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cruxifixur.map_n_chat1",
+            "certificate_hash": "a8d5da4733ac6e2b54121790e1a68c9bc3805684"
+          }
+        },
+        {
+          "client_id": "1083371753397-gps7tfpr0sbp2jjd74f37bbrfg3lm8sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDLAxtoB0WeNDYaYrDnQqHUT-g9hxAQOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083371753397-gps7tfpr0sbp2jjd74f37bbrfg3lm8sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
