@@ -5,12 +5,15 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>Curious Spotify</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        {/* Sidebar */}
         <Sidebar />
+        {/* Center */}
       </main>
+      <div>{/* Player */}</div>
     </div>
   );
 }
